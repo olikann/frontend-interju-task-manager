@@ -1,16 +1,29 @@
-# React + Vite
+# Frontend Interjúfeladat
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Hogyan futtatható a program?
 
-Currently, two official plugins are available:
+- git clone https://github.com/olikann/frontend-interju-task-manager
+- cd frontend-interju-task-manager
+- npm install
+- npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Használt technológiák
 
-## React Compiler
+- react
+- tailwind CSS
+- shadcn/ui
+- localStorage API
+- gitHub
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Mit csinálnál másképp, ha több időd lenne?
 
-## Expanding the ESLint configuration
+- külön TaskItem komponensre bontanám a feladat kártyát
+- hozzáadnék animációkat (pl. task törlésnél eltűnés, vagy hozzáadásnál oldalról bejövő elem)
+- implementálnék drag-and-drop rendezést/átrendezést ha kell
+- hozzáadnék szűrő funkciót (Összes / Aktív / Kész)
+- eseteg határidő részt, melyik feladattal mikorra kell végeznem
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Milyen problémába ütköztem közben?
+
+- shadcn/ui beállítás és használat (nem használtam ezelött)
+- Tailwind konfiguráció inicializálása CLI verzió különbségek miatt (ezt se használtam)
